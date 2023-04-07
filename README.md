@@ -49,7 +49,11 @@ Upgrade KlongPy
 
 Load program from file
 
-    kg -l hanzi.kg
+    kgpy -l hanzi.kg
+
+Generate a markdown page containing examples
+
+    make examples
 
 ## Links
 
