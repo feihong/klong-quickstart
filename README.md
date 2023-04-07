@@ -8,9 +8,11 @@ Install normal Klong
     tar xvf klong.tgz
     cd klong
     make
-    cp kg /usr/local/bin
 
-Set `KLONGPATH` environment variable to `./klong/lib` directory.
+Add to your `.zshrc`
+
+    alias kg='rlwrap --always-readline ~/work/klong-quickstart/klong/kg'
+    KLONGPATH=~/work/klong-quickstart/klong/lib
 
 Install Python, then install KlongPy
  
@@ -44,6 +46,10 @@ Start KlongPy REPL
 Upgrade KlongPy
 
     make upgrade
+
+Load program from file
+
+    kg -l hanzi.kg
 
 ## Links
 
