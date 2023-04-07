@@ -16,6 +16,12 @@ Install Python, then install KlongPy
  
     pip install --requirement requirements.txt
 
+Or install KlongPy by downloading its repo
+
+    git clone --depth 1 https://github.com/briangu/klongpy
+    cd klongpy
+    pip install --editable .
+
 Install the KlongPy Jupyter kernel
 
     git clone --depth 1 https://github.com/briangu/klupyter
