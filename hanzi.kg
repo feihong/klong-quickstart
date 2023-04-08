@@ -3,7 +3,7 @@
 .p("Random Hanzi of the day")
 
 randInt::{x+_(1+y-x)*.rn()}
-randHanzi::{{x;:#randInt(19968; 40959)}'!x}
+randHanzi::{{x;:#randInt(19968; 40959)}'x:^0}
 output::[8 8]:^randHanzi@64
 .p(output)
 
