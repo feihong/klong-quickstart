@@ -1,0 +1,88 @@
+:"Conditional"
+
+:[0;:yes;:no]
+:[1;:yes;:no]
+
+:"Size"
+
+#42
+#-42
+#[1 2 3 4 5 6]
+#"hello sam"
+#0cX
+
+:"Take"
+
+3#!9
+(-3)#!9
+
+:"Drop"
+
+3_!9
+(-3)_!9
+
+:"Reverse"
+
+|!10
+|"What the Poop"
+
+:"Each"
+
+{1+x*x}'!6
+{x;_5*.rn()}'20:^0
+
+:"Each-2"
+
+[1 2 3],'[4 5 6]
+
+:"Each-Left"
+
+1,:\[1 2 3]
+
+:"Each-Right"
+
+"a",:/"bcd"
+
+:"Each-Pair"
+
+,:'[1 2 3 4 5 6]
+
+:"Over"
+
+-/[1 2 3 4]
+
+:"Over-Neutral"
+
+100-/[1 2 3 4]
+
+:"Scan"
+
+,\"abcd"
+
+:"Scan-Over-Neutral"
+
+1,\[2 3 4]
+
+:"Converge"
+
+*:~[[[1 2 3] 4] 5]
+
+:"Scan-Converging"
+
+*\~[[[1 2 3] 4] 5]
+
+:"While"
+
+{x>0}{x-3}:~10
+
+:"Scan-While"
+
+{x>0}{x-3}\~10
+
+:"Iterate"
+
+5{x,"b"}:*"a"
+
+:"Scan-Iterating"
+
+5{x,"b"}\*"a"

@@ -7,5 +7,5 @@ py:
 kg:
 	rlwrap --always-readline kg
 
-examples:
-	python run_examples.py
+cheatsheet:
+	python generate-cheatsheet.py
