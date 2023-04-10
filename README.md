@@ -59,3 +59,4 @@ Generate a markdown page containing examples
 
 - [KlongPy](https://github.com/briangu/klongpy)
 - [Klong Reference Manual](https://t3x.org/klong/klong-ref.txt.html)
+- [KlongPy Jupyter Kernel](https://github.com/briangu/klupyter/)
