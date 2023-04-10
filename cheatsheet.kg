@@ -3,6 +3,103 @@
 :[0;:yes;:no]
 :[1;:yes;:no]
 
+:"Amend"
+
+"012345678":="xx",[3 0 7]
+"01234":="xx",[4]
+"01234":="xx",[5]
+"01234":="xx",[6]
+
+:"Amend-in-Depth"
+
+:"Atom"
+
+:"Char"
+
+:"Cut"
+
+:"Define"
+
+:"Divide"
+
+:"Drop"
+
+3_!9
+(-3)_!9
+
+:"Enumerate"
+
+:"Equal"
+
+:"Expand/Where"
+
+:"Find"
+
+:"First"
+
+:"Floor"
+
+:"Form"
+
+:"Format"
+
+:"Format2"
+
+:"Grade-Down"
+
+:"Grade-Up"
+
+:"Group"
+
+:"At/Index"
+
+:"At/Apply"
+
+:"Index-in-Depth"
+
+:"Integer-Divide"
+
+:"Join"
+
+:"Less"
+
+:"List"
+
+:"Match"
+
+:"Max/Or"
+
+:"Min/And"
+
+:"Minus"
+
+:"More"
+
+:"Negate"
+
+:"Not"
+
+:"Plus"
+
+:"Power"
+
+:"Range"
+
+:"Reciprocal"
+
+:"Reshape"
+
+:"Remainder"
+
+:"Reverse"
+
+|!10
+|"What the Poop"
+
+:"Rotate"
+
+:"Shape"
+
 :"Size"
 
 #42
@@ -11,20 +108,18 @@
 #"hello sam"
 #0cX
 
+:"Split"
+
 :"Take"
 
 3#!9
 (-3)#!9
 
-:"Drop"
+:"Times"
 
-3_!9
-(-3)_!9
+:"Transpose"
 
-:"Reverse"
-
-|!10
-|"What the Poop"
+:"Undefined"
 
 :"Each"
 

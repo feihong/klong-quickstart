@@ -5,6 +5,143 @@
     :[0;:yes;:no]  -->  no
     :[1;:yes;:no]  -->  yes
 
+## Amend
+
+    "012345678":="xx",[3 0 7]  -->  xx2xx56xx
+    "01234":="xx",[4]  -->  0123xx
+    "01234":="xx",[5]  -->  01234xx
+    "01234":="xx",[6]  -->  01234
+
+## Amend-in-Depth
+
+
+## Atom
+
+
+## Char
+
+
+## Cut
+
+
+## Define
+
+
+## Divide
+
+
+## Drop
+
+    3_!9  -->  [3 4 5 6 7 8]
+    (-3)_!9  -->  [0 1 2 3 4 5]
+
+## Enumerate
+
+
+## Equal
+
+
+## Expand/Where
+
+
+## Find
+
+
+## First
+
+
+## Floor
+
+
+## Form
+
+
+## Format
+
+
+## Format2
+
+
+## Grade-Down
+
+
+## Grade-Up
+
+
+## Group
+
+
+## At/Index
+
+
+## At/Apply
+
+
+## Index-in-Depth
+
+
+## Integer-Divide
+
+
+## Join
+
+
+## Less
+
+
+## List
+
+
+## Match
+
+
+## Max/Or
+
+
+## Min/And
+
+
+## Minus
+
+
+## More
+
+
+## Negate
+
+
+## Not
+
+
+## Plus
+
+
+## Power
+
+
+## Range
+
+
+## Reciprocal
+
+
+## Reshape
+
+
+## Remainder
+
+
+## Reverse
+
+    |!10  -->  [9 8 7 6 5 4 3 2 1 0]
+    |"What the Poop"  -->  pooP eht tahW
+
+## Rotate
+
+
+## Shape
+
+
 ## Size
 
     #42  -->  42
@@ -13,20 +150,22 @@
     #"hello sam"  -->  9
     #0cX  -->  88
 
+## Split
+
+
 ## Take
 
     3#!9  -->  [0 1 2]
     (-3)#!9  -->  [6 7 8]
 
-## Drop
+## Times
 
-    3_!9  -->  [3 4 5 6 7 8]
-    (-3)_!9  -->  [0 1 2 3 4 5]
 
-## Reverse
+## Transpose
 
-    |!10  -->  [9 8 7 6 5 4 3 2 1 0]
-    |"What the Poop"  -->  pooP eht tahW
+
+## Undefined
+
 
 ## Each
 
